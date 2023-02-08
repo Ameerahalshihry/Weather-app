@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: aliceblue; */
+}
+.header{
+  /* background-image: url('https://media.istockphoto.com/id/647736242/photo/landscape-of-rutland-water-park-england.jpg?s=612x612&w=0&k=20&c=Xn4Tnwj93qCh8JF9gBY87GAt15uVaazGshOHn5dBMTI=');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  position: absolute;
+  bottom: 30%;
+  right: 33%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: rgba(0,0,0,0.5);
+  color: aliceblue;
+  font-weight: bold;
+
+
+  /* height: 50vh; */
+}
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+.wetherInfo {
+  width: 400px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+  /* background: rgba(0,0,0,0.5); */
+
+}
+.title{
+  font-family:cursive;
+  font-size: 3rem;
+  padding:10px;
+}
